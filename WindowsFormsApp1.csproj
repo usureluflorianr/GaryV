@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE02E57F-DCAE-40E1-8D82-EA381E6C78D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bara.Designer.cs">
+      <DependentUpon>bara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="comm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comm.Designer.cs">
+      <DependentUpon>comm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="flappy7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="flappy7.Designer.cs">
+      <DependentUpon>flappy7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="flappy8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="flappy8.Designer.cs">
+      <DependentUpon>flappy8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="flappy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="flappy.Designer.cs">
+      <DependentUpon>flappy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\Form1.cs">
+      <SubType>Form</SubType>
+      <Link>Form1.cs</Link>
+    </Compile>
+    <Compile Include="..\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <Link>Form1.Designer.cs</Link>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="game2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game2.Designer.cs">
+      <DependentUpon>game2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gata.Designer.cs">
+      <DependentUpon>gata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="salvationcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="salvationcs.Designer.cs">
+      <DependentUpon>salvationcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t21.Designer.cs">
+      <DependentUpon>t21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t20.Designer.cs">
+      <DependentUpon>t20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t19.Designer.cs">
+      <DependentUpon>t19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t18.Designer.cs">
+      <DependentUpon>t18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t17.Designer.cs">
+      <DependentUpon>t17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t16.Designer.cs">
+      <DependentUpon>t16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t15.Designer.cs">
+      <DependentUpon>t15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t14.Designer.cs">
+      <DependentUpon>t14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t13.Designer.cs">
+      <DependentUpon>t13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t12.Designer.cs">
+      <DependentUpon>t12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t11.Designer.cs">
+      <DependentUpon>t11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t10.Designer.cs">
+      <DependentUpon>t10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t9.Designer.cs">
+      <DependentUpon>t9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t8.Designer.cs">
+      <DependentUpon>t8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t7.Designer.cs">
+      <DependentUpon>t7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t6.Designer.cs">
+      <DependentUpon>t6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t5.Designer.cs">
+      <DependentUpon>t5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t4.Designer.cs">
+      <DependentUpon>t4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t3.Designer.cs">
+      <DependentUpon>t3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t2.Designer.cs">
+      <DependentUpon>t2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="t1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="t1.Designer.cs">
+      <DependentUpon>t1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bara.resx">
+      <DependentUpon>bara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="comm.resx">
+      <DependentUpon>comm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flappy7.resx">
+      <DependentUpon>flappy7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flappy8.resx">
+      <DependentUpon>flappy8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flappy.resx">
+      <DependentUpon>flappy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <Link>Form1.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="game2.resx">
+      <DependentUpon>game2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gata.resx">
+      <DependentUpon>gata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="salvationcs.resx">
+      <DependentUpon>salvationcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t21.resx">
+      <DependentUpon>t21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t20.resx">
+      <DependentUpon>t20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t19.resx">
+      <DependentUpon>t19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t18.resx">
+      <DependentUpon>t18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t17.resx">
+      <DependentUpon>t17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t16.resx">
+      <DependentUpon>t16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t15.resx">
+      <DependentUpon>t15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t14.resx">
+      <DependentUpon>t14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t13.resx">
+      <DependentUpon>t13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t12.resx">
+      <DependentUpon>t12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t11.resx">
+      <DependentUpon>t11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t10.resx">
+      <DependentUpon>t10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t9.resx">
+      <DependentUpon>t9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t8.resx">
+      <DependentUpon>t8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t7.resx">
+      <DependentUpon>t7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t6.resx">
+      <DependentUpon>t6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t5.resx">
+      <DependentUpon>t5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t4.resx">
+      <DependentUpon>t4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t3.resx">
+      <DependentUpon>t3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t2.resx">
+      <DependentUpon>t2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="t1.resx">
+      <DependentUpon>t1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\t8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ttttt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\505749_adventure-time-backgrounds-wallpapers-cave_1920x1080_h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bird_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bird_straight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\collision.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\point.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usurelu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usurelu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nope.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sad.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\metin1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20190108_190645.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v4.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sefu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noroc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20190108_203044.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ba1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mozart.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ba11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tata1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tata11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tata1 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tata2 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tu2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tu2 - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tu1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
